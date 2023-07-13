@@ -13,7 +13,7 @@ for (int a = 0; a < numbers.Length; a++)
 if (numbers[a] % 2 == 0)
 count++;
 
-Console.WriteLine($"всего чисел => {numbers.Length} , четные => {count}");
+Console.WriteLine($"  всего чисел => {numbers.Length} , четные => {count}");
 
 void ArrayRandom(int[] numbers)
 {
@@ -24,11 +24,8 @@ void ArrayRandom(int[] numbers)
 }
 void PrintArray(int[] numbers)
 {
-    Console.Write("[ ");
     for(int i = 0; i < numbers.Length; i++)
     {
-        Console.Write(numbers[i] + ", ");
+        Console.Write(numbers[i] + " ");
     }
-    Console.Write("]");
-    Console.WriteLine();
 }
